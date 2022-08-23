@@ -6,6 +6,7 @@
   "repository": "https://github.com/1hanzla100/hanzla-portfolio.git",
   "author": "Hanzla Tauqeer",
   "license": "MIT",
+  "homepage": "https://shanukakrishan.github.io/",
   "scripts": {
     "dev": "next dev",
     "build": "react-scripts build && cp build/index",
