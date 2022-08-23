@@ -1,18 +1,18 @@
 import dynamic from "next/dynamic";
 import PropTypes from "prop-types";
-const Navigation = dynamic(() => import("../components/Navigation"));
-const Greetings = dynamic(() => import("../containers/Greetings"));
-const Skills = dynamic(() => import("../containers/Skills"));
-const Proficiency = dynamic(() => import("../containers/Proficiency"));
-const Education = dynamic(() => import("../containers/Education"));
-const Experience = dynamic(() => import("../containers/Experience"));
-const Projects = dynamic(() => import("../containers/Projects"));
-const Feedbacks = dynamic(() => import("../containers/Feedbacks"));
+const Navigation = dynamic(() => import("./Navigation"));
+const Greetings = dynamic(() => import("./Greetings"));
+const Skills = dynamic(() => import("./Skills"));
+const Proficiency = dynamic(() => import("./Proficiency"));
+const Education = dynamic(() => import("./Education"));
+const Experience = dynamic(() => import("./Experience"));
+const Projects = dynamic(() => import("./Projects"));
+const Feedbacks = dynamic(() => import("./Feedbacks"));
 const GithubProfileCard = dynamic(() =>
-  import("../components/GithubProfileCard")
+  import("./GithubProfileCard")
 );
-import { openSource } from "../portfolio";
-import SEO from "../components/SEO";
+import { openSource } from "./portfolio";
+import SEO from "./SEO";
 
 const Mailto = ({ email, subject, body, children = "ddff" }) => {
   return (

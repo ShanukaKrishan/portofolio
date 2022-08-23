@@ -2,7 +2,7 @@ import React from "react";
 
 import { Card, Col, Row, Container, Button } from "reactstrap";
 
-import SocialLinks from "../components/SocialLinks";
+import SocialLinks from "./SocialLinks";
 
 const GithubProfileCard = ({ prof }) => {
   return (
