@@ -15,7 +15,10 @@ const Greetings = () => {
     <main>
       <div className="position-relative">
         <section className="section section-lg section-shaped pb-180">
-          <div className="shape shape-style-1 bg-gradient-info">
+          <div
+            className="shape shape-style-1 "
+            style={{ backgroundColor: "rgb(197,189,220)" }}
+          >
             <span />
             <span />
             <span />

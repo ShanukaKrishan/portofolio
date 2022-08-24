@@ -6,7 +6,10 @@ import SocialLinks from "./SocialLinks";
 
 const GithubProfileCard = ({ prof }) => {
   return (
-    <Card className="section-lg bg-gradient-info shadow-lg border-0">
+    <Card
+      className="section-lg  shadow-lg border-0"
+      style={{ backgroundColor: "rgb(197,189,220)" }}
+    >
       <Container className="">
         <div className="p-2">
           <Row className="">
@@ -25,13 +28,16 @@ const GithubProfileCard = ({ prof }) => {
               <p className="lead text-white mt-3">
                 Want to get to know me more?
                 <a
-                  className="lead text-teal mt-3"
+                  className="lead mt-3"
                   href={`mailto:${"shanukakrishan@yahoo.com"}?subject=${
                     encodeURIComponent("Job Application") || ""
                   }&body=${encodeURIComponent("HI") || ""}`}
                   style={{
-                    color: "rgba(45,206,137)",
-                    padding: "0.5rem",
+                    color: "rgba(168,101,201)",
+                    paddingLeft: "0.5rem",
+                    paddingRight: "0.5rem",
+                    paddingTop: "0.3rem",
+                    paddingBottom: "0.3rem",
                     backgroundColor: "white",
                     borderRadius: "25px",
                     margin: "0.5rem",
@@ -45,10 +51,17 @@ const GithubProfileCard = ({ prof }) => {
                 Application{" "}
               </p>
               <div>
-                <div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
-                  <i className="ni ni-pin-3 text-info mr-2" />
-                  <span>Kuwait</span>
-                  <span style={{ marginLeft: "3rem" }}> </span>
+                <div className="my-3 icon-shape bg-gradient-white shadow rounded ">
+                  <i className="ni ni-pin-3  mr-2" />
+                  <span style={{ color: "rgb(168,101,201)" }}>Kuwait</span>
+                  <span
+                    style={{
+                      marginLeft: "3rem",
+                      // backgroundColor: "rgb(168,101,201)",
+                    }}
+                  >
+                    {" "}
+                  </span>
                 </div>
               </div>
 
