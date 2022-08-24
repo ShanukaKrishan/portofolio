@@ -6,7 +6,6 @@
   "repository": "",
   "author": "Krishan shanuka",
   "license": "MIT",
-  "homepage": "https://ShanukaKrishan.github.io/Krishan.GITHUB.IO",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
