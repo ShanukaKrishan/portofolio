@@ -9,7 +9,7 @@
   "homepage": "https://ShanukaKrishan.github.io/ShanukaKrishan.github.io",
   "scripts": {
     "dev": "next dev",
-    "build": "react-scripts build && cp build/index",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
