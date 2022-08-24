@@ -6,7 +6,7 @@
   "repository": "https://github.com/1hanzla100/hanzla-portfolio.git",
   "author": "Hanzla Tauqeer",
   "license": "MIT",
-  "homepage": "https://shanukakrishan.github.io/",
+  "homepage": "https://ShanukaKrishan.github.io/ShanukaKrishan.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "react-scripts build && cp build/index",
@@ -39,7 +39,8 @@
   },
   "devDependencies": {
     "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2"
+    "eslint-config-next": "11.1.2",
+    "gh-pages": "^4.0.0"
   },
   "browserslist": {
     "production": [

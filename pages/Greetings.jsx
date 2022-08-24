@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-import { greetings } from "./portfolio";
+import { greetings } from "../portfolio";
 
 import { Button, Container, Row, Col } from "reactstrap";
 
-import GreetingLottie from "./DisplayLottie";
-import SocialLinks from "./SocialLinks";
+import GreetingLottie from "../components/DisplayLottie";
+import SocialLinks from "../components/SocialLinks";
 
 const Greetings = () => {
   useEffect(() => {

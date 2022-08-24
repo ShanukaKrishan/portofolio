@@ -1,6 +1,6 @@
 import React from "react";
-import EducationCard from "./EducationCard";
-import { educationInfo } from "./portfolio";
+import EducationCard from "../components/EducationCard";
+import { educationInfo } from "../portfolio";
 import { Container, Row, Col } from "reactstrap";
 
 const Education = () => {

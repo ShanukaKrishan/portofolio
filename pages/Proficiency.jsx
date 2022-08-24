@@ -1,10 +1,10 @@
 import React from "react";
-import { SkillBars } from "./portfolio";
+import { SkillBars } from "../portfolio";
 import { Container, Row, Progress, Col } from "reactstrap";
 
 import { Fade } from "react-reveal";
 
-import GreetingLottie from "./DisplayLottie";
+import GreetingLottie from "../components/DisplayLottie";
 
 const Proficiency = () => {
   return (

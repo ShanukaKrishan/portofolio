@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import PropTypes from "prop-types";
 
-import { seoData } from "./portfolio";
+import { seoData } from "../portfolio";
 
 function SEO() {
 	return (
