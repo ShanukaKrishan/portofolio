@@ -4,9 +4,9 @@
   "description": "Software Developer Portfolio Template built with react.js bootstrap that helps you showcase your work and skills as a software developer.",
   "main": "index.js",
   "repository": "",
-  "author": "Hanzla Tauqeer",
+  "author": "Krishan shanuka",
   "license": "MIT",
-  "homepage": "https://ShanukaKrishan.github.io/",
+  "homepage": "https://ShanukaKrishan.github.io/Krishan.GITHUB.IO",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
