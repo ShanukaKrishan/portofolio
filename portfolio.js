@@ -125,6 +125,25 @@ export const skillsSection = {
         },
       ],
     },
+    {
+      title: "Diagnostics",
+      lottieAnimationFile: "/lottie/working.json", // Path of Lottie Animation JSON File
+      skills: [],
+      softwareSkills: [
+        {
+          skillName: "Windows",
+          fontAwesomeClassname: "logos:microsoft-windows",
+        },
+        {
+          skillName: "Network",
+          fontAwesomeClassname: "emojione-v1:three-networked-computers",
+        },
+        {
+          skillName: "Cloud",
+          fontAwesomeClassname: "icon-park:database-network-point",
+        },
+      ],
+    },
   ],
 };
 
@@ -146,11 +165,23 @@ export const SkillBars = [
     progressPercentage: "60",
   },
   {
-    Stack: "HTML/CSS/Bootstrap",
+    Stack: "HTML / CSS/ Bootstrap",
     progressPercentage: "80",
   },
   {
     Stack: "JavaScript",
+    progressPercentage: "70",
+  },
+  {
+    Stack: "Windows Diagnostics",
+    progressPercentage: "80",
+  },
+  {
+    Stack: "Network Diagnostics",
+    progressPercentage: "70",
+  },
+  {
+    Stack: "Cloud Computing",
     progressPercentage: "70",
   },
 ];
@@ -163,8 +194,9 @@ export const educationInfo = [
     desc: "",
     grade: "First Class Honours",
     descBullets: ["GPA 74.4%"],
-    icon: "/img/icons/common/jis.jpg",
-    width: 100,
+    icon: "/img/icons/common/ply.png",
+
+    width: 90,
     height: 130,
   },
   {
@@ -175,8 +207,8 @@ export const educationInfo = [
     grade: "High School Diploma",
     descBullets: [" 3A, 1 B, 1 C"],
     width: 90,
-    height: 90,
-    icon: "/img/icons/common/ply.png",
+    height: 60,
+    icon: "/img/icons/common/jis.jpg",
   },
 ];
 
@@ -190,7 +222,7 @@ export const experience = [
   },
   {
     role: "Mobile Developer",
-    company: "Infiniti / Nissan, Kuwait",
+    company: "Infiniti / Nissan, Al - Babtain, Kuwait",
     companylogo: "/img/icons/common/brand.gif",
     date: " August 2022 – Ongoing",
     desc: "I was given the opportunity to work as an intern at Nissan as a Mobile Developer. The internship is a month long and teaches about the basic about mobile developement.",
