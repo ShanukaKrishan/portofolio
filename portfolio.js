@@ -7,7 +7,7 @@ export const greetings = {
     "I'm a 23 year old with a vision to change the world by the language of code. Lets work together and bring a change to the world we live in. ",
   // Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
   resumeLink:
-    "https://drive.google.com/file/d/1sLE-YyGvaI0h6mv_rpbcqisQWtLwFK8P/view?usp=sharing",
+    "https://drive.google.com/file/d/1n9uSRr-eQ9GM6dAHwAOSrerHLlbO2UMI/view?usp=sharing",
 };
 
 export const openSource = {
